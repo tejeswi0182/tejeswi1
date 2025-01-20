@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+</head>
+<style>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  /* overflow: hidden; */
+}
+.calendar-container{
+    width: 100%;
+}
+.head{
+  background-color: rgb(114, 167, 247);
+  margin:0;
+  padding-bottom: 6px;
+}
+.head > h5{font-size: 15px;padding: 10px 0 0 40px; letter-spacing: 1px;}
+.head > h1{font-size:30px ;padding: 5px 0 0 30px;}
+
+table,   
+        td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+.sub{
+    width: 100%;
+    background-color:rgb(3, 114, 204) ;
+    padding-top: 20px;
+    height: 40px;
+}
+td{
+    padding: 22px;
+    text-align: left;
+    vertical-align: top;
+    height: 25px; 
+    width: 25px;  
+    border: 1px solid blue;
+    margin: 0;
+
+    
+}
+.highlight {
+    background-color: gray;
+    font-weight: bold;
+    padding: 3px 4px 2px 4px;
+    margin-left: -15%;
+    margin-top: -10px;
+}
+.highlight-1 {
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 3px 4px 2px 4px;
+    margin-left: -15%;
+    /* margin-top: -5pc; */
+    
+}
+.highlight-2{
+  margin-left: -15%;
+  font-weight: bold;
+}
+h2{
+  width: 100%;
+  font-size: 14px;
+  margin-top: -14%;
+  margin-left: 15px;
+  color: rgb(3, 114, 204);
+  font-weight: 600;
+}
+h3{
+  width: 100%;
+  color: rgb(3, 114 , 204);
+  font-size: 14px;
+  margin-left: 7.5%;
+  margin-top: -15%;
+  font-weight: 600;
+}
+</style>
+<body>
+    
+    <div class="calendar-container">
+      <div class="head">
+        <h5>Tejeswi</h5> 
+        <h1>January 2025</h1>
+      </div>
+        <table class="calendar" style="width: 100%; margin-top: -4rem;">
+          <tr class="sub">
+            <th>Sunday</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+          </tr> <br><br>
+          <tr >
+            <td><span class="highlight-2">29</span></td>
+            <td><span class="highlight-2">30</span></td>
+            <td><span class="highlight-2">31</span></td>
+            <td><span class="highlight-1">1 </span>
+             <h2>&nbsp;&nbsp;New Year's Eve</h2> </td>
+            <td><span class="highlight-1">2</span></td>
+            <td><span class="highlight-1">3</span></td>
+            <td><span class="highlight">4</span></td>
+          </tr>
+          <tr>
+            <td><span class="highlight">5</span></td>
+            <td><span class="highlight-1">6</span></td>
+            <td><span class="highlight-1">7</span></td>
+            <td><span class="highlight-1">8</span></td>
+            <td><span class="highlight-1">9</span></td>
+            <td><span class="highlight-1">10</span></td>
+            <td><span class="highlight">11</span></td>
+          </tr>
+          <tr>
+            <td><span class="highlight">12</span></td>
+            <td><span class="highlight-1">13</span></td>
+            <td><span class="highlight-1">14</span></td>
+            <td><span class="highlight-1">15</span></td>
+            <td><span class="highlight-1">16</span></td>
+            <td><span class="highlight-1">17</span></td>
+            <td><span class="highlight">18</span></td>
+          </tr>
+          <tr>
+            <td><span class="highlight">19</span></td>
+            <td><span class="highlight-1">20</span><h2>ML King Day</h2></td>
+            <td><span class="highlight-1">21</span></td>
+            <td><span class="highlight-1">22</span></td>
+            <td><span class="highlight-1">23</span></td>
+            <td><span class="highlight-1">24</span></td>
+            <td><span class="highlight">25</span></td>
+          </tr>
+          <tr>
+            <td><span class="highlight">26</span></td>
+            <td><span class="highlight-1">27</span></td>
+            <td><span class="highlight-1">28</span></td>
+            <td><span class="highlight-1">29</span><h3>Chinese New Year</h3></td>
+            <td><span class="highlight-1">30</span></td>
+            <td><span class="highlight-1">31</span></td>
+            <td><span>1</span></td>
+          </tr>
+          <tr>
+            <td><span class="highlight-2">2</span>
+              <h2>&nbsp;Groundhog Day</h2>
+            </td>
+            <td><span class="highlight-2">3</span></td>
+            <td colspan="2">Notes</td>
+            <td colspan="3"></td>
+            
+          </tr>
+
+        </table>
+      </div>
+
+</body>
+</html>
